@@ -11,25 +11,23 @@
 // };
 
 
-  let pronoun = ['the', 'our'];
-  let adj = ['great', 'big'];
-  let noun = ['jogger', 'racoon'];
-  let dot = ['.com','.es','.net']
+let pronoun = ['the', 'our'];
+let adj = ['great', 'big'];
+let noun = ['jogger', 'racoon'];
+let dot = ['.com', '.es', '.net'];
 
-  let i = 0;
-  let j = 0;
-  let k = 0;
-  let l = 0;
 
-  for (i = 0; i < pronoun.length; i++){
-    for (j = 0; j < adj.length; j++)
-      for (k = 0; k < noun.length; k++)
-        for (l = 0; l < dot.length; l++)
 
-    console.log(pronoun[i]+adj[j]+noun[k]+dot[l]);
+for (let i = 0; i < pronoun.length; i++) {
+
+  for (let j = 0; j < adj.length; j++) {
+
+    for (let k = 0; k < noun.length; k++) {
+
+      for (let l = 0; l < dot.length; l++) {
+
+        console.log(pronoun[i] + adj[j] + noun[k] + dot[l]);
+      }
+    }
   }
-  
-    
-    
-    
-    
+}
